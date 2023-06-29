@@ -1,5 +1,6 @@
 var exp=require('express')
 var app=exp();
+var path=require("path");
 
 app.use(express.static(path.join(__dirname,'public')));
 
