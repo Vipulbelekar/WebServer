@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js></script>
+    <script>
+       
+    </script>
+</head>
+<body>
+    <form method="post" action="http://localhost:9000/getDataTable">
+        <table id="tb">
+            <h3>Form</h3>
+            <tr>
+                <td>
+                <label for="nm"> Enter Name : </label>
+                </td>
+                <td>
+                <input type="text" name="nm" id="nm"/><br/>
+                </td>
+            </tr>
+        
+          <tr>
+            <td>
+             <label for="bd">Enter Birthdate : </label>
+             </td>
+             <td>
+            <input type="date" name="bd" id="bd"/><br/>
+           </td>
+          </tr>
+       <tr>
+        <tr>
+            <td>
+             <label for="emailid">Enter emailid : </label>
+             </td>
+             <td>
+            <input type="email" name="emailid" id="emailid"/><br/>
+           </td>
+          </tr>
+       <tr>
+        <tr>
+            <td>
+             <label for="qua">Enter Qualification : </label>
+             </td>
+             <td>
+            <input type="text" name="qua" id="qua"/><br/>
+           </td>
+          </tr>
+       <tr>
+        <td>
+        <input type="Submit" value="Submit" onclick="display()"/>
+        </td>
+      </tr>
+    </table>
+    </form>
+    <div id="dis">
+         
+    </div>
+
+</body>
+</html>
