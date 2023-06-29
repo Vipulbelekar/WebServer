@@ -9,7 +9,7 @@ app.use(bp.json());
 
 
 app.get('/getform',function(req,res){
-    res.sendFile(path.join(__dirname+'/Form.html'))
+    res.sendFile(path.join(__dirname+'/Form_prn12.html'))
 })
 
 app.post('/getDataTable',function(req,res){
