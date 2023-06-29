@@ -2,7 +2,7 @@ var exp=require('express')
 var app=exp();
 var path=require("path");
 
-app.use(express.static(path.join(__dirname,'public')));
+app.use(exp.static(path.join(__dirname,'public')));
 
 var bp=require("body-parser");
 app.use(bp.json());
